@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    font-size: 16px;
+}
+
+input::placeholder {
+    color: #ccc;
+}
+
+.hint {
+    font-size: 14px;
+    color: #ff5722;
+    margin: 10px 0;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff5722;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e64a19;
+}
+
+#init-button {
+    background-color: #4caf50;
+}
+
+#init-button:hover {
+    background-color: #45a049;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.prediction-result p {
+    margin: 10px 0;
+}
+
+.outcome {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff5722;
+}
+
+.score {
+    font-size: 18px;
+}
+
+.total {
+    font-size: 16px;
+}
+
+.total-value {
+    font-weight: bold;
+}
+
+.success {
+    color: #4caf50;
+}
+
+.danger {
+    color: #f44336;
+}
+
+.error {
+    color: #f44336;
+    font-size: 16px;
+}
+
+.commentator-phrase {
+    font-style: italic;
+    color: #ffc107;
+    margin-top: 20px;
+}
